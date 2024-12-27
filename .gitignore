@@ -5,4 +5,7 @@
 !ghostty/
 !nvim/
 
+!ghostty/**
+!nvim/**
+
 !.gitignore
