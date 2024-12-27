@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Whitelist for ghosstu and nvim 
+!ghostty/
+!nvim/
+
+!.gitignore
