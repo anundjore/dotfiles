@@ -5,6 +5,8 @@ title = mont
 # ghostty +show-config --default --docs
 # ghostty +list-themes
 
+background-opacity = 1 
+
 # Font
 freetype-load-flags            = no-hinting
 freetype-load-flags            = no-force-autohint
@@ -18,7 +20,7 @@ font-feature                   = dlig
 font-feature                   = ss05
 
 font-thicken                   = false
-font-size                      = 20
+font-size                      = 16
 window-inherit-font-size       = true
 
 # Look and Feel
@@ -28,6 +30,7 @@ bold-is-bright                 = true
 link-url                       = true
 macos-titlebar-proxy-icon      = hidden
 macos-titlebar-style           = tabs
+
 mouse-hide-while-typing        = true
 #theme                          = dark:tokyonight_night,light:tokyonight_day
 window-vsync                   = true
