@@ -1,5 +1,6 @@
-title = mont 
-
+title = montrachet
+window-padding-x = 7,12
+window-padding-y = 7,12
 
 
 # ghostty +show-config --default --docs
@@ -8,23 +9,24 @@ title = mont
 background-opacity = 1 
 
 # Font
-freetype-load-flags            = no-hinting
-freetype-load-flags            = no-force-autohint
+# freetype-load-flags            = no-hinting
+# freetype-load-flags            = no-force-autohint
 
-font-family                    = Symbols Nerd Font Mono
-font-family                    = Iosevka Custom
-window-title-font-family       = Iosevka Custom
+# font-family                    = Symbols Nerd Font Mono
+# font-family                    = Iosevka Custom
+# font-family = Symbols Nerd Font Mono
+# window-title-font-family       = Iosevka Custom
 
-font-feature                   = calt
-font-feature                   = dlig
-font-feature                   = ss05
+#font-feature                   = calt
+#font-feature                   = dlig
+#font-feature                   = ss05
 
 font-thicken                   = false
 font-size                      = 16
 window-inherit-font-size       = true
 
 # Look and Feel
-adjust-cursor-thickness        = 3
+adjust-cursor-thickness        = 1
 adjust-underline-position      = 3
 bold-is-bright                 = true
 link-url                       = true
@@ -32,11 +34,11 @@ macos-titlebar-proxy-icon      = hidden
 macos-titlebar-style           = tabs
 
 mouse-hide-while-typing        = true
-#theme                          = dark:tokyonight_night,light:tokyonight_day
+theme                          = dark:tokyonight_night,light:tokyonight_day
 window-vsync                   = true
 
 # Other
-clipboard-paste-protection     = true
+# clipboard-paste-protection     = true
 clipboard-trim-trailing-spaces = true
 copy-on-select                 = true
 macos-auto-secure-input        = true
