@@ -1,6 +1,10 @@
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
+
+vim.keymap.set("", "<D-j>", "5j", { desc = "Move down five lines with Cmd+j" })
+vim.keymap.set("", "<D-k>", "5k", { desc = "Move up five lines with Cmd+k" })
+
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
