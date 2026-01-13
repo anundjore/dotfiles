@@ -1,8 +1,8 @@
-title = montrachet
-window-padding-x = 7,12
+title = mont 
+ window-padding-x = 7,12
 window-padding-y = 7,12
 
-
+theme = TokyoNight 
 # ghostty +show-config --default --docs
 # ghostty +list-themes
 
@@ -34,7 +34,6 @@ macos-titlebar-proxy-icon      = hidden
 macos-titlebar-style           = tabs
 
 mouse-hide-while-typing        = true
-theme                          = dark:tokyonight_night,light:tokyonight_day
 window-vsync                   = true
 
 # Other
